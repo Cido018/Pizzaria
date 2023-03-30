@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.cabeçalho > img {
+    height: 60px;
+}
+.cabeçalho {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+}
+.menu {
+    display: flex;
+}
+.menu > li {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.menu > li > a {
+    color: aliceblue;
+    text-decoration: none;
+    text-shadow: 2px 2px solid black;
+    font-weight: 600px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.menu > li:hover {
+    background-color: brown;
+}
+.imagem {
+    background-image: url(
+        /Pizzaria/img/pizza.jpg
+    );
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.imagem > h1 {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+.imagem > a {
+    color: aliceblue;
+    border-radius: 5px;
+    border: 2px  solid rgb(255, 255, 255);
+    text-decoration: none;
+    text-shadow: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.imagem > a:hover {
+    background-color: brown;
+}
+.main {
+    margin:0 auto;
+    text-align: center;
+    max-width: 1300px;
+    margin-top: 30px;
+}
+main > hr {
+background: red;
+}
+
+main > h2 {
+    color:  green;
+    text-align: center;
+}
+main > p {
+    text-align: center;
+    color: green;
+}
+hr > linha {
+       color: red;
+    }
